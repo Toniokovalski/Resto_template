@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Aleo-Regular;
+    src: url(Fonts/aleo/Aleo-Regular.otf);
+}
+
+@font-face {
+    font-family: Aleo-LightItalic;
+    src: url(Fonts/aleo/Aleo-LightItalic.otf);
+}
+
+@font-face {
+    font-family: Aleo-Bold;
+    src: url(Fonts/aleo/Aleo-Bold.otf);
+}
+
+@font-face {
+    font-family: Aleo-Light;
+    src: url(Fonts/aleo/Aleo-Light.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background: #ffffff;
+}
+
+a {
+    color:#000;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+#main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+}
+
+#header .logo {
+    width: 84px;
+    height: 31px;
+}
+
+#header .logo img {
+    padding: 40px 40px 40px 20px;
+}
+
+.nav {
+float: right;
+}
+
+.nav ul {
+    list-style:none;
+    float: right;
+}
+
+.nav ul li {
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    float: left;
+    font-size:16px;
+    margin:13px 22px;
+}
+
+#billboard {
+    width: 980px;
+    border-bottom: 4px solid #f34949;
+}
+
+#menu {
+    width: 980px;
+    margin-bottom: 150px;
+    float: left;
+}
+
+.ribbed {
+    text-align: center;
+}
+
+.menu1 {
+    width: 370px;
+    float: left;
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding: 60px 60px 60px 60px;
+}
+
+.menu2 {
+    width: 370px;
+    float: left;
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding: 60px 60px 60px 60px;
+}
+
+#menu p {
+    color: #a9a9a9;
+}
+
+.description {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: Aleo-LightItalic, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.dish span {
+    float: right;
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+.more {
+    text-align: center;
+    }
+
+.more ul {
+    list-style:none;
+}
+
+.more ul li a {
+    background: url("Images/slice.png") no-repeat center;
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a9a9a9;
+    padding: 10px 50px 10px 10px;
+    border: 1px solid #a9a9a9;
+}
+
+#featured {
+    width: 980px;
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+
+.block_title {
+    margin-bottom: 30px;
+    font-family: Aleo-Bold, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.featured_dish {
+    width: 230px;
+    float: left;
+    margin-right: 20px;
+}
+
+.featured_dish.last {
+    margin-right: 0;
+}
+
+#featured img {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-family: Aleo-Light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #a9a9a9;
+    float: left;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.price {
+    float: right;
+    font-family: Aleo-Light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #a9a9a9;
+}
+
+.rating {
+    clear: both;
+    width: 230px;
+}
+
+.star {
+    float: none;
+    font-size: 16px;
+    color: orange;
+    cursor: pointer;
+}
+
+.star:hover:before {
+    content: "\2605";
+    position: absolute;
+    color: orange;
+}
+
+#gallery {
+    width: 980px;
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+
+.pictures {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.pictures img {
+    display: block;
+    float: left;
+}
+
+#footer {
+    width: 980px;
+    background: #3b3b3b;
+    height: 150px;
+}
+
+#footer div {
+    width: 230px;
+    float: left;
+    margin-top: 50px;
+}
+
+#footer a {
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#footer ul {
+    list-style:none;
+}
+
+#footer span {
+    font-family: Aleo-Regular, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#footer p {
+    font-family: Aleo-Light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+
