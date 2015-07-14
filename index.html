@@ -4,6 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Resto template</title>
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <!--<link rel="stylesheet" type="text/css" href="Js/jquery.bxslider/jquery.bxslider.css" media="screen" />-->
+    <script type="text/javascript" src="Js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="Js/jquery.bxslider/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="Js/Slider.js"></script>
 </head>
 <body>
     <div id="main">
@@ -102,50 +106,100 @@
         </div>
 
         <div id="featured">
-            <h1 class="block_title">FIATURED DISHES</h1>
+            <h1 class="block_title">FIATURED DISHES</h1><div class="pager"></div>
+            <div class="slider">
 
-            <div class="featured_dish">
-                <div class="featured_dish">
-                    <img src="Images/featured1.jpg" alt="featured1"/>
-                    <div class="name">Fugiat nulla sint</div>
-                    <div class="price"><span>$30</span></div>
-                </div>
-                <div class="rating">
-                    <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
-                </div>
-            </div>
 
-            <div class="featured_dish">
                 <div class="featured_dish">
-                    <img src="Images/featured2.jpg" alt="featured1"/>
-                    <div class="name">Daute irure dolor</div>
-                    <div class="price"><span>$24</span></div>
-                </div>
-                <div class="rating">
-                    <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
-                </div>
-            </div>
-
-            <div class="featured_dish">
-                <div class="featured_dish">
-                    <img src="Images/featured3.jpg" alt="featured1"/>
-                    <div class="name">Officia deserunt mollit</div>
-                    <div class="price"><span>$60</span></div>
-                </div>
-                <div class="rating">
-                    <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
-                </div>
-            </div>
-
-            <div class="featured_dish last">
-                <div class="featured_dish">
-                    <img src="Images/featured4.jpg" alt="featured1"/>
-                    <div class="name">Pim minim veniam</div>
-                    <div class="price"><span>$17</span></div>
-                </div>
+                    <div class="featured_dish">
+                        <img src="Images/featured1.jpg" alt="featured1"/>
+                        <div class="name">Fugiat nulla sint</div>
+                        <div class="price"><span>$30</span></div>
+                    </div>
                     <div class="rating">
                         <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
                     </div>
+                </div>
+
+                <div class="featured_dish">
+                    <div class="featured_dish">
+                        <img src="Images/featured2.jpg" alt="featured1"/>
+                        <div class="name">Daute irure dolor</div>
+                        <div class="price"><span>$24</span></div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                    </div>
+                </div>
+
+                <div class="featured_dish">
+                    <div class="featured_dish">
+                        <img src="Images/featured3.jpg" alt="featured1"/>
+                        <div class="name">Officia deserunt mollit</div>
+                        <div class="price"><span>$60</span></div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                    </div>
+                </div>
+
+                <div class="featured_dish last">
+                    <div class="featured_dish">
+                        <img src="Images/featured4.jpg" alt="featured1"/>
+                        <div class="name">Pim minim veniam</div>
+                        <div class="price"><span>$17</span></div>
+                    </div>
+                        <div class="rating">
+                            <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                        </div>
+                </div>
+
+                <!-- Begin-->
+                <div class="featured_dish">
+                    <div class="featured_dish">
+                        <img src="Images/featured1.jpg" alt="featured1"/>
+                        <div class="name">Fugiat nulla sint111</div>
+                        <div class="price"><span>$30</span></div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                    </div>
+                </div>
+
+                <div class="featured_dish">
+                    <div class="featured_dish">
+                        <img src="Images/featured2.jpg" alt="featured1"/>
+                        <div class="name">Daute irure dolor111</div>
+                        <div class="price"><span>$24</span></div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                    </div>
+                </div>
+
+                <div class="featured_dish">
+                    <div class="featured_dish">
+                        <img src="Images/featured3.jpg" alt="featured1"/>
+                        <div class="name">Officia deserunt mollit111</div>
+                        <div class="price"><span>$60</span></div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                    </div>
+                </div>
+
+                <div class="featured_dish last">
+                    <div class="featured_dish">
+                        <img src="Images/featured4.jpg" alt="featured1"/>
+                        <div class="name">Pim minim veniam 111</div>
+                        <div class="price"><span>$17</span></div>
+                    </div>
+                    <div class="rating">
+                        <span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆<span class="star">☆</span></span></span></span></span>
+                    </div>
+                </div>
+                <!-- End-->
+
             </div>
         </div>
 
@@ -173,7 +227,7 @@
                 <p><span>France Restaurant</span></p>
                 <p>68, rue  de la Couronne</p>
                 <p>75002 PARIS</p>
-                <p><span>455-56-66-88</span></p>
+                <p><span>02.94.23.69.56</span></p>
             </div>
 
             <div class="links">

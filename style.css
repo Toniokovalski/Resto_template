@@ -141,12 +141,53 @@ float: right;
     overflow: hidden;
 }
 
+.pager {
+    float: right;
+}
+
+.pager .bx-pager {
+    font-size: .85em;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #666;
+    padding-top: 5px;
+}
+
+.pager .bx-pager .bx-pager-item{
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.pager .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.pager .bx-pager.bx-default-pager a:hover,
+.pager .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+
+
+
+
 .block_title {
     margin-bottom: 30px;
     font-family: Aleo-Bold, Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-
+#featured .block_title {
+    float: left;
+}
 .featured_dish {
     width: 230px;
     float: left;
@@ -219,9 +260,10 @@ float: right;
 }
 
 #footer div {
-    width: 230px;
+    width: 200px;
     float: left;
-    margin-top: 50px;
+    margin-top: 20px;
+    padding: 15px;
 }
 
 #footer a {
