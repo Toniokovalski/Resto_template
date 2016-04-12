@@ -77,7 +77,7 @@ float: right;
 
 #menu {
     width: 980px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     float: left;
 }
 
@@ -137,7 +137,7 @@ float: right;
 
 #featured {
     width: 980px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     overflow: hidden;
 }
 
@@ -238,7 +238,7 @@ float: right;
 
 #gallery {
     width: 980px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     overflow: hidden;
 }
 
@@ -284,8 +284,9 @@ float: right;
 
 #footer p {
     font-family: Aleo-Light, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffff;
+    line-height: 1.5;
 }
 
 
