@@ -101,6 +101,15 @@ float: right;
     padding: 60px 60px 60px 60px;
 }
 
+.menu1 a, .menu2 a {
+    text-decoration: none;
+    color: #a9a9a9;;
+}
+
+.menu1 a:hover, .menu2 a:hover {
+    color: #f34949;
+}
+
 #menu p {
     color: #a9a9a9;
 }
